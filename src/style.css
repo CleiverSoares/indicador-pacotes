@@ -1,0 +1,95 @@
+
+nav {
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    font-family: Arial, sans-serif;
+}
+
+.card {
+    width: 300px;
+    min-height: 180px;
+    border: 2px #656565 solid;
+    margin: 5px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    justify-content: space-between;
+}
+
+.card h2 {
+    margin: 0;
+    margin-bottom: 10px;
+}
+
+.notas-fiscais {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.notas-fiscais div {
+    display: flex;
+    flex-direction: column;
+    border-right: 1px solid #ccc;
+    list-style: none;
+    width: 33%;
+    height: 100%;
+}
+
+.notas-fiscais div:last-child {
+    border-right: none;
+}
+
+#rangeInput {
+    width: 100%;
+}
+
+.card-resultados {
+    width: 300px;
+    height: 600px;
+    border: 2px #656565 solid;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 20px;
+}
+
+.card-compras {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.card-resultado-pai {
+    width: 20%;
+    display: flex;
+    justify-content: end;
+}
+
+#mensagemResultado {
+    margin-top: 20px;
+    font-size: 16px;
+    text-align: center;
+}
+
+.notas-fiscais div {
+
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+.notas-fiscais div p {
+    margin: 0px;
+}
